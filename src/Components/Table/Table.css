@@ -1,0 +1,229 @@
+.table-div {
+        margin-top: 1rem;
+
+}
+
+.header-div {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+}
+
+table {
+        border-collapse: collapse;
+        width: 99.8%;
+
+}
+
+thead {
+
+        border-radius: 0.75rem 0rem 0rem 0rem;
+        border-bottom: 1px solid #E4E4E4;
+        background: #F5F5F5;
+
+}
+
+th {
+
+        height: 3rem;
+        padding: 0.75rem 1rem;
+        text-align: left;
+        font-weight: 500;
+        font-family: "Roboto";
+        font-size: 0.80rem;
+        color: #050505;
+        line-height: 1.125rem;
+
+}
+
+.body {
+        display: flex;
+        flex-direction: row;
+        height: 4.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+        align-items: center;
+        gap: 1rem;
+        width: 20vw;
+
+
+}
+
+.body-name {
+        display: flex;
+        flex-direction: column;
+        width: 15.3vw;
+
+}
+
+.first {
+
+        border-bottom: 1px solid #E4E4E4;
+        border-left: 1px solid #E4E4E4;
+}
+
+.middle {
+        border-bottom: 1px solid #E4E4E4;
+
+}
+
+.last {
+        border-bottom: 1px solid #E4E4E4;
+        border-right: 1px solid #E4E4E4;
+}
+
+.name {
+        color: #050505;
+        font-family: "Roboto";
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+
+
+}
+
+.mail {
+        color: #777676;
+        font-family: "LetteraTextStd-Bold";
+        font-size: 0.80rem;
+        font-weight: 600;
+        line-height: 1rem;
+
+}
+
+.level {
+        font-family: "Roboto";
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+        padding-left: 1.7rem;
+
+
+}
+
+.reason {
+        color: #050505;
+        font-family: "Roboto";
+        font-size: 0.850rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+        padding-left: 1.6rem;
+
+}
+
+.days {
+        padding-left: 1.6rem;
+        color: #050505;
+        font-family: "Roboto";
+        font-size: 0.95rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+}
+
+.date {
+        padding-left: 1.6rem;
+        color: #777676;
+        font-family: "Roboto";
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 1rem;
+}
+
+.cond {
+        padding-right: 0.8rem;
+        margin-left: 1rem;
+}
+
+.item-cond {
+        color: #050505;
+        font-family: "Roboto";
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+
+}
+
+.item-date {
+        color: #777676;
+        font-family: "LetteraTextStd-Bold";
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 1rem;
+
+}
+
+.dot {
+        display: flex;
+        flex-direction: row;
+        gap: 0.3rem
+}
+
+.no-user {
+        color: #414040;
+        font-family: "Roboto";
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.125rem;
+        text-align: center;
+        margin-top: 10rem;
+
+
+}
+
+.external-link {
+        cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 630px) {
+
+        table {
+                min-width: 250vw;
+
+                border-collapse: collapse;
+        }
+
+
+        .body {
+
+                width: 58vw;
+
+
+        }
+
+        .name {
+
+                font-size: 0.82rem;
+
+
+        }
+
+        .mail {
+
+                font-size: 0.65rem;
+
+
+        }
+
+        .body-name {
+
+                width: 40.3vw;
+
+        }
+
+
+
+        .table-div {
+                width: 90vw;
+                overflow-x: scroll;
+                padding-bottom: 30px;
+        }
+
+        .no-user {
+
+                font-size: 1rem;
+
+
+        }
+
+}
