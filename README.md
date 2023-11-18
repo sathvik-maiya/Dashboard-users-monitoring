@@ -1,10 +1,10 @@
-### Dashboard -- monitoring users###
+### Dashboard -- monitoring users ###
 
-#Install Dependencies
+# Install Dependencies
 
-`npm i'
+` npm i '
 
-'npm start'
+' npm start '
 
 Admin dashboard -- where we can filter , search and monitor user's risky behaviour
 
